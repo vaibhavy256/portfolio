@@ -1,0 +1,23 @@
+.banner-button{
+    margin-top: 1rem;
+    background-color: rgb(120, 159, 213);
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing:1px;
+    color:beige;
+    background-color: rgb(68, 188, 236);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    max-width: 100;
+    width: 250px;
+}
+.button:hover,
+.button:focus{
+  background-color: #4338ca; /* Darker shade of blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}

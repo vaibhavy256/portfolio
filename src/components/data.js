@@ -15,7 +15,7 @@ export const skills = [
   {
     id: 2,
     image: MySql,
-    labelClass: "text-lg font-semibold text-gray-700 mt-2",
+    labelClass: "text-lg font-semvcfbibold text-gray-700 mt-2",
     label: "MySQL",
     parentClass: "flex-column-center",
     imageClass: "w-16 h-16",

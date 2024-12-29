@@ -17,20 +17,21 @@ const About = ()=>{
         <div className="space-y-4">
             <div>
                 <p className="text-lg font-medium text-gray-800">
-                    BE in Computer Science Engineering
-                </p>
-                <p className="text-gray-600">
-                    Winter 2020, MGM’s College of Engineering, Nanded
-                </p>
-            </div>
-            <div>
-                <p className="text-lg font-medium text-gray-800">
                     Post Graduation Diploma in Advanced Computing
                 </p>
                 <p className="text-gray-600">
                     Sept 2021 - Apr 2022, Sunbeam Institute
                 </p>
             </div>
+            <div>
+                <p className="text-lg font-medium text-gray-800">
+                    BE in Computer Science Engineering
+                </p>
+                <p className="text-gray-600">
+                    Winter 2020, MGM’s College of Engineering, Nanded
+                </p>
+            </div>
+            
         </div>
     </div>
 </div>

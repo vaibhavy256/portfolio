@@ -1,11 +1,13 @@
 import { skills } from "./data";
 import "../css/skills.css";
 
+
 const Expertise = () => {
   const positions = ["row-1", "row-2", "row-3", "row-4"];
   return (
     <>
-      <div className="mt-10 flex flex-col items-center space-y-8 bg-gradient-to-r from-blue-100 via-white to-blue-100 py-12 rounded-lg shadow-lg">
+      <div className="skills-container">
+
         <h1 className="text-5xl font-bold underline text-center">Skills</h1>
         <div className="skills-grid">
           {skills.map((logo) =>

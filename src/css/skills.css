@@ -1,17 +1,86 @@
-.skills-grid {
-    display: grid; /* Enable grid layout */
-    grid-template-columns: repeat(4,1fr); /* Adjust column sizes */
-    gap: 20px; /* Spacing between grid items */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Align items vertically */
-    padding: 20px; /* Add padding around the grid */
-}
 
-.square-container {
-    width: 120px; /* Square width */
-    height: 120px; /* Square height */
-    display: flex; /* Flexbox for centering */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-}
+
+/* Main container styles */
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem; 
+    padding: 2rem 1rem; /* Responsive padding */
+    background: (to right, #bfdbfe, #ffffff, rgb(107, 158, 231)); 
+    width: 100%; /* Ensure full width */
+    max-width: 100%; /* Prevent overflow */
+    overflow: hidden; /* Hide any overflow content */
+    
+  }
+  
+  /* Heading styles */
+  .skills-container h1 {
+    font-size: 1.5rem; /* Responsive font size */
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .skills-container h1 {
+      font-size: 2.5rem; /* Larger font size for medium screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .skills-container h1 {
+      font-size: 3rem; /* Largest font size for large screens */
+    }
+  }
+  
+  /* Skills grid layout */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Default: single-column layout */
+    gap: 1rem; /* Space between items */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Limit width for large screens */
+    padding: 1rem; /* Padding inside grid */
+    box-sizing: border-box;
+  }
+  
+  /* Individual skill card */
+  .square-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    
+  }
+  
+  /* Responsive grid adjustments */
+  @media (min-width: 640px) {
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two-column layout for small screens */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(3, 1fr); /* Three-column layout for medium screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .skills-grid {
+      grid-template-columns: repeat(4, 1fr); /* Four-column layout for large screens */
+    }
+  }
+  
+  /* Adjust images and icons inside skill cards */
+  .square-container img {
+    max-width: 100%; /* Ensure images fit within container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .square-container i {
+    font-size: 2rem; /* Icon size */
+    margin-bottom: 0.5rem;
+  }
+  

@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useState,use } from "react";
 import Expertise from "../components/Expertise.jsx"
 import { useRef } from "react";
-
+import "../css/header.css"
 
 const Header=(sections)=>{
     
-    const[name,setName]=useState("Vaibhav Yeotikar")
+    const[name,setName]=useState("Portfolio")
+    const [darkMode, setDarkMode] = useState(false);
+
+
     
     const menuLinks = [
         { title: "Home", link: "home", id: 1 },
@@ -28,13 +31,13 @@ const Header=(sections)=>{
    
     return (
         <>
-        <div className=" h-20 border main flex justify-between items-center bg-gray-300">
+        <div className="header">
         {/*brand logo */}
-        {/* <div>
+        <div>
             <h1 className="text-2xl font-bold"> {name}</h1>
-        </div> */}
+        </div>
         {/*Menu links */}
-        <div className="space-x-6" id="main-root" style={{scrollBehavior: 'smooth'}} >
+        <div className="space-x-6" >
         {menuLinks.map(({ title, link, id }) => (
            <button
            key={id}
@@ -61,10 +64,7 @@ const Header=(sections)=>{
                 Contact
             </a> */}
         </div>
-        {/*buttons */}
-        <div className="px-3 py-2 bg-gray-900 shadow rounded-full text-xls text-slate-100">
-            Contact 
-        </div>
+        
 
         </div>
         

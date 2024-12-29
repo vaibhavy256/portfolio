@@ -11,3 +11,13 @@
 html {
     scroll-behavior: smooth;
   }
+body {
+  padding: 25px;
+  background-color: white;
+  
+}
+
+.dark-mode {
+  background-color: rgb(65, 63, 63);
+  color: white;
+}
