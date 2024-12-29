@@ -1,0 +1,17 @@
+.skills-grid {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(4,1fr); /* Adjust column sizes */
+    gap: 20px; /* Spacing between grid items */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 20px; /* Add padding around the grid */
+}
+
+.square-container {
+    width: 120px; /* Square width */
+    height: 120px; /* Square height */
+    display: flex; /* Flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
