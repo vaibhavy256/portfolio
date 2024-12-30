@@ -7,7 +7,7 @@
     align-items: center;
     margin-top: 2.5rem; 
     padding: 2rem 1rem; /* Responsive padding */
-    background: (to right, #bfdbfe, #ffffff, rgb(107, 158, 231)); 
+    background: linear-gradient(to right, #c7e3fc, #ffffff, #c7e3fc);
     width: 100%; /* Ensure full width */
     max-width: 100%; /* Prevent overflow */
     overflow: hidden; /* Hide any overflow content */

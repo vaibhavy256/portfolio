@@ -34,12 +34,12 @@ const Banner = () => {
   };
 
   return (
-    <div className="main-container flex flex-wrap items-center justify-center py-10 bg-cover bg-center">
+    <div className="banner">
       <div className="w-full md:w-1/2 flex justify-center">
         <div className="max-w-md mt-3 ms-0 text-gray-900">
           <h3 className="text-3xl font-semibold">Hi, I am</h3>
           <h1 className="name">Vaibhav Yeotikar</h1>
-          <h2 className="text-3xl text-blue-500 mt-2">
+          <h2 className="heading">
             I am a <span ref={el}></span>{" "}
           </h2>
           <p className="mt-4 text-lg leading-7 text-gray-700">
@@ -63,11 +63,14 @@ const Banner = () => {
               <i className="fa-brands text-4xl fa-github"></i>
             </a>
           </div>
+          <div className="button:hover">
           <a className="banner-button "
             href={resume}
           >
             Resume
           </a>
+          </div>
+          
         </div>
       </div>
       {/* )} */}

@@ -7,6 +7,8 @@ import About from "./components/About";
 import Expertise from "./components/Expertise";
 import Footer from "./components/Footer";
 import { useRef } from "react";
+import Experience from "./components/Experience";
+import { Contact } from "./components/Contact";
 
 function App() {
   const homeRef = useRef();
@@ -29,10 +31,10 @@ function App() {
         <Expertise />
       </div>
       <div id="portfolio">
-        <h1>Portfolio Section</h1>
+        <Experience/>
       </div>
       <div id="contact">
-        <h1>Contact Section</h1>
+        <Contact/>
       </div>
       <Footer />
     </>

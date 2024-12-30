@@ -1,6 +1,6 @@
 .banner-button{
     margin-top: 1rem;
-    background-color: rgb(120, 159, 213);
+    background-color: rgb(24, 80, 159);
     display: inline-block;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
@@ -15,9 +15,25 @@
     max-width: 100;
     width: 250px;
 }
-.button:hover,
-.button:focus{
+
+.button:hover{
   background-color: #4338ca; /* Darker shade of blue on hover */
   transform: scale(1.05); /* Slightly enlarge the button */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.heading {
+  font-size: 2rem; 
+  color: rgb(70, 69, 69); 
+  margin-top: 0.5rem; 
+}
+.banner{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 0;
+  background: linear-gradient(to right, #c7e3fc, #ffffff, #c7e3fc);
+  background-size: cover;
+  background-position: center;
 }

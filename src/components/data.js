@@ -3,6 +3,7 @@ import springBoot from "../assets/spring boot.png";
 import microservices from "../assets/Microservices.png";
 import intellij from "../assets/intellij.png";
 import vs from "../assets/vs.png";
+import { title } from "framer-motion/client";
 
 export const skills = [
   {
@@ -82,33 +83,22 @@ export const skills = [
   },
 ];
 
-{
-  /* 
-                {/*
-                <div className="flex justify-center space-x-10">
-               
-                </div>
-
-                <div className="flex justify-center space-x-12">
-                    <div className="flex flex-col items-center">
-                        <i className="fa-brands fa-jenkins text-6xl text-gray-500"></i>
-                        <p className="text-lg font-semibold text-gray-700 mt-2">Jenkins</p>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <img src={intellij} alt="Intellij" className="w-16 h-16"/>
-                        <p className="text-lg font-semibold text-gray-700 mt-2">Intellij</p>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <img src={vs} alt="VS Code" className="w-16 h-16"/>
-                        <p className="text-lg font-semibold text-gray-700 mt-2">VS Code</p>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <i className="fa-brands fa-react text-6xl text-blue-500"></i>
-                        <p className="text-lg font-semibold text-gray-700 mt-2">React</p>
-                    </div>
-                </div> */
-}
-
+export const experienceData=[
+  {
+    id: 1,
+    title: "Software Engineer",
+    company: "Cybage Software",
+    duration: "June 2022- August2024",
+    description:[
+      "Java and Spring Boot Development: Developed applications using Java and Spring Boot, with a focus on scalability and performance optimization.",
+      "SQL Optimization: Designed and refined complex SQL queries to enhance data retrieval performance and ensure data accuracy across multiple microservices.",
+      "Microservices Architecture: Built scalable systems using microservices and REST APIs to enable seamless communication between distributed services.",
+      "REST API Development: Engineered APIs to consolidate and integrate datasets, facilitating efficient data management and ensuring data consistency.",
+      "Performance Optimization: Created efficient RESTful APIs and microservices to improve data retrieval and enhance user experience.",
+      "Application Security: Implemented Spring Security with JWT authentication to strengthen application security and prevent unauthorized access."
+    ]
+  }
+]
 // export const introData = {
 //   message: "Hi, I am",
 //   name: "Vaibhav Yeotikar",

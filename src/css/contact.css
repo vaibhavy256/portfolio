@@ -1,0 +1,42 @@
+.div h1{
+  font-size: 1.5rem; /* Responsive font size */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact{
+  background: linear-gradient(to right, #c7e3fc, #ffffff, #c7e3fc);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, textarea {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
