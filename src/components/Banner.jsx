@@ -35,7 +35,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="w-full md:w-1/2 flex justify-center">
-        <div className="max-w-md mt-3 ms-0 text-gray-900">
+        <div className="max-w-md mt-3  ms-2 text-gray-900">
           <h3 className="text-3xl font-semibold">Hi, I am</h3>
           <h1 className="name">Vaibhav Yeotikar</h1>
           <div><h2 className="heading">
