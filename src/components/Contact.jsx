@@ -35,7 +35,7 @@ export const Contact = () => {
     <h1 className="text-center text-5xl underline font-bold text-gray-800">
         Contact
     </h1>
-      <form ref={form} onSubmit={sendEmail}>
+      <form className="justify-center " ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />
         <label>Email</label>

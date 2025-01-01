@@ -24,10 +24,5 @@ body {
 html, body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  width: 100%; /* Ensures full width */
-  overflow-x: hidden; /* Prevents horizontal scrolling */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9fafb; /* Light background for better contrast */
-  color: #333;
+  
 }

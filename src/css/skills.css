@@ -35,7 +35,7 @@
   /* Skills grid layout */
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Default: single-column layout */
+    grid-template-columns: repeat(2, 1fr); /* Default: single-column layout */
     gap: 1rem; /* Space between items */
     width: 100%; /* Full width */
     max-width: 1200px; /* Limit width for large screens */
