@@ -14,7 +14,6 @@ const Banner = () => {
       typeSpeed: 50,
       backSpeed: 40,
       startDelay: 100,
-
       loop: true,
     });
     return () => {
@@ -39,9 +38,9 @@ const Banner = () => {
         <div className="max-w-md mt-3 ms-0 text-gray-900">
           <h3 className="text-3xl font-semibold">Hi, I am</h3>
           <h1 className="name">Vaibhav Yeotikar</h1>
-          <h2 className="heading">
+          <div><h2 className="heading">
             I am a <span ref={el}></span>{" "}
-          </h2>
+          </h2></div>
           <p className="mt-4 text-lg leading-7 text-gray-700">
             A committed software engineer with over 2 years of experience in
             software development. Proficient indeveloping Java-based
